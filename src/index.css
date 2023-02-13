@@ -1,8 +1,24 @@
+* {
+	box-sizing: border-box;
+}
+
 /* Navbar*/
 
 nav {
-	background-color: #999999;
-	height: 200px;
+	background-color: black;
+	height: 100px;
+}
+
+.nav-item a {
+	color: #ffd700;
+}
+
+.nav-item a:nth-child(1):hover {
+	color: white;
+}
+
+nav img {
+	width: 200px;
 }
 
 .nav-item {
@@ -10,23 +26,15 @@ nav {
 }
 
 /* About */
-
-.video {
-	height: 300px;
-	width: 200px;
+.about {
+	margin-top: 100px;
+	padding-top: 30px;
 	background-color: black;
+	height: 700px;
 }
 
-.image {
-	height: 300px;
-	width: 200px;
-	background-color: black;
-}
-
-.bgimage {
-	background-color: blue;
-	height: 500px;
-	width: 100%;
+.about h1 {
+	font-size: 5rem;
 }
 
 button {
@@ -35,6 +43,12 @@ button {
 
 .info {
 	display: flex;
+	margin-top: 200px;
+	background-color: #dc5f00;
+	color: #c0eef2;
+}
+
+.infoItem {
 }
 
 footer {
