@@ -71,10 +71,6 @@ button {
 	background-color: gold;
 	color: black;
 }
-
-.infoItem {
-}
-
 .mine {
 	background-image: url(../public/images/mining.jpeg);
 	height: 700px;
