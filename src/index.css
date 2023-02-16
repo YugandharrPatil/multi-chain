@@ -68,8 +68,8 @@ button {
 
 .info {
 	display: flex;
-	background-color: gold;
-	color: black;
+	background-color: black;
+	color: gold;
 }
 .mine {
 	background-image: url(../public/images/mining.jpeg);
