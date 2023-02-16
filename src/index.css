@@ -169,3 +169,7 @@ footer h6 {
 .links a:hover {
 	color: grey;
 }
+
+.links h4 {
+	color: gold;
+}
