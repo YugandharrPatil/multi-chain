@@ -25,7 +25,7 @@ const Footer = () => {
 							<i class="fa-xl fa-brands fa-youtube"></i>
 						</a>
 					</div>
-					<h6 className="pt-5">&#169; 2023 Graux Foundation. All rights reserved.</h6>
+					<h6 className="pt-2">&#169; 2023 Graux Foundation. All rights reserved.</h6>
 				</div>
 				<div className="links">
 					<h4>Graux</h4>

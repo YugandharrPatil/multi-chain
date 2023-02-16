@@ -11,7 +11,7 @@ const WhatIsGraux = () => {
 							hybrid blockchain and use different multichains to do a transaction in private entity
 						</p>
 					</div>
-					<div className="col">Hello!</div>
+					<div className="col"></div>
 				</div>
 			</div>
 		</div>
