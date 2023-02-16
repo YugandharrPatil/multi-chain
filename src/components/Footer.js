@@ -27,6 +27,18 @@ const Footer = () => {
 					</div>
 					<h6 className="pt-5">&#169; 2023 Graux Foundation. All rights reserved.</h6>
 				</div>
+				<div className="links">
+					<h4>Graux</h4>
+					<a href="#">Documentation</a>
+					<br />
+					<a href="#">Terms and Policy</a>
+					<br />
+					<a href="#">Privacy Policy</a>
+					<h4>Products</h4>
+
+					<h4>Resources</h4>
+					<a href="#">Medium Articles</a>
+				</div>
 			</div>
 		</footer>
 	);

@@ -109,6 +109,7 @@ button {
 footer {
 	background-color: black;
 	height: 300px;
+	position: relative;
 }
 
 .col1 {
@@ -152,4 +153,19 @@ footer h6 {
 	text-align: left;
 	padding-left: 120px;
 	font-size: 1.1rem;
+}
+
+.links {
+	position: absolute;
+	right: 200px;
+	top: 60px;
+}
+
+.links a {
+	color: white;
+	text-decoration: none;
+}
+
+.links a:hover {
+	color: grey;
 }
