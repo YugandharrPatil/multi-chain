@@ -2,12 +2,9 @@ const About = () => {
 	return (
 		<div className="about">
 			<div className="text-center mt-5">
+				<img src={`${process.env.PUBLIC_URL}/images/solana.png`} alt="" />
 				<h1>
-					<span className="white">
-						{" "}
-						Faster <br /> Blockchain for{" "}
-					</span>
-					<br /> <span className="red">Everyone!</span>
+					Solana <br /> Solution for <br /> Blockchains!
 				</h1>
 			</div>
 		</div>

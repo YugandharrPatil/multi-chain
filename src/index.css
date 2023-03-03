@@ -6,12 +6,12 @@ body {
 	font-family: "Times New Roman", Times, serif;
 }
 
-.white {
-	color: blue;
+.about h1 {
+	color: #c6ac5a;
 }
 
-.red {
-	color: red;
+.about img {
+	width: 150px;
 }
 
 /* Navbar*/
@@ -22,7 +22,7 @@ nav {
 }
 
 .nav-item a {
-	color: #ffd700;
+	color: #c6ac5a;
 	font-family: sans-serif;
 	text-transform: uppercase;
 	font-size: 1rem;
@@ -56,10 +56,9 @@ nav img {
 .about h1 {
 	font-size: 5rem;
 	font-weight: bold;
-	margin-top: 10rem;
-	background: -webkit-linear-gradient(black, #ffd700, black);
+	/* background: -webkit-linear-gradient(black, #ffd700, black);
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	-webkit-text-fill-color: transparent; */
 }
 
 button {
@@ -69,10 +68,19 @@ button {
 .info {
 	display: flex;
 	background-color: black;
-	color: gold;
+	color: #c6ac5a;
 }
+
+.info h3 {
+	font-size: 2rem;
+}
+
+.info p {
+	font-size: 1.2rem;
+}
+
 .mine {
-	background-image: url(../public/images/mining.jpeg);
+	/* background-image: url(../public/images/mining.jpeg); */
 	height: 700px;
 	width: 100%;
 	color: white;
@@ -80,7 +88,8 @@ button {
 	background-position: center center;
 	background-color: black;
 	text-align: center;
-	color: gold;
+	color: #c6ac5a;
+	padding-top: 200px;
 }
 
 .mine h2 {
@@ -89,14 +98,14 @@ button {
 	/* background: -webkit-linear-gradient(white, #ffd700);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent; */
-	color: gold;
+	color: #c6ac5a;
 }
 
 .mine p {
 	/* background: -webkit-linear-gradient(white, #ffd700);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent; */
-	color: gold;
+	color: #c6ac5a;
 	font-size: 1.5rem;
 	text-align: center;
 }
@@ -136,7 +145,7 @@ footer {
 }
 
 .social-icons a:hover {
-	color: gold;
+	color: #c6ac5a;
 }
 
 footer img {
@@ -172,5 +181,5 @@ footer h6 {
 }
 
 .links h4 {
-	color: gold;
+	color: #c6ac5a;
 }
